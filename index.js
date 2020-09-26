@@ -9,7 +9,7 @@ mongoose.connect("mongodb+srv://Pavaman:Pavaman20@studentmentorassignment.z8quo.
 
 app.use(express.json());
 app.use(cors({
-    origin: "" //Origin Here
+    origin: "https://elastic-almeida-63dac4.netlify.app" //Origin Here
 }));
 
 app.get("/", async (req, res) => {
